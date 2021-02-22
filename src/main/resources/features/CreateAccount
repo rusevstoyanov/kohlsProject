@@ -1,0 +1,7 @@
+Feature: Create account functionality
+
+  Scenario: Create Account page
+    Given User is on home page
+    When User click on account button dropdown should displayed
+    Then User click on account button dropdown should displayed on create account
+    And  Create account page should open
